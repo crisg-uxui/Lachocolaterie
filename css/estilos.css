@@ -476,7 +476,6 @@ b{
 /* Sección Contacto */
 
 #contacto{
-    height: 86vh;
     padding: 20px 60px;
     position: relative;
 }
@@ -637,7 +636,6 @@ b{
 
 footer{
     display: flex;
-    margin-top: -100px;
 }
 
 .rss-contact{
