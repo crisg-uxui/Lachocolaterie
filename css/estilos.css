@@ -477,7 +477,6 @@ b{
 
 #contacto{
     padding: 20px 60px;
-    position: relative;
 }
 
 #formulario{
@@ -868,10 +867,15 @@ footer{
         position: fixed;
         top: 0;
         margin-top: 0;
+        padding: 0px 20px 0px 0px;
     }
 
     .menu-principal i{
         display: block;
+    }
+
+    .menu-principal img{
+        width: 260px;
     }
 
     .menu-bar{
