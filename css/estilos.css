@@ -38,7 +38,7 @@ body{
 }
 
 .titulos{
-    font-size: 80px;
+    font-size: 10.6vh;
     text-align: center;
     font-weight: 600;
     color: var(--color-primario);
