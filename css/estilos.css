@@ -1065,8 +1065,17 @@ footer{
 }
 
 /* Contacto */
+
+#contacto{
+    padding-bottom: 0px;
+}
+
 #contacto h1{
     font-size: 58px;
+}
+
+#formulario{
+    margin-top: 20px;
 }
 
 /* Alertas */
@@ -1082,7 +1091,6 @@ footer{
 /* Footer */
 footer{
     flex-wrap: wrap;
-    margin-top: -40px;
 }
 
 .rss-contact{
