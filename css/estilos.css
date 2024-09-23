@@ -963,6 +963,7 @@ footer{
         letter-spacing: -2px;
         line-height: 72px;
         max-width: 400px;
+        padding: 0px 14px;
     }
 
     /* Sección servicios */
@@ -986,12 +987,24 @@ footer{
         max-width: 340px;
     }
 
+    .titulo-item{
+        font-size: 24px;
+    }
+
+    .text-item{
+        font-size: 16px;
+    }
+
     /* Sección productos */
 
     #productos{
         padding: 20px;
    }
    
+   #productos h1{
+    font-size: 56px;
+   }
+
    .productos-bestseller {
        padding: 0px; 
    }
