@@ -38,7 +38,7 @@ body{
 }
 
 .titulos{
-    font-size: 10.6vh;
+    font-size: 86px;
     text-align: center;
     font-weight: 600;
     color: var(--color-primario);
@@ -1024,6 +1024,11 @@ footer{
 
 .food-info p{
     width: 70%;
+}
+
+/* Contacto */
+#contacto h1{
+    font-size: 58px;
 }
 
 /* Alertas */
