@@ -725,6 +725,25 @@ footer{
 
 /* MEDIA QUERYS */
 
+@media screen and (max-width: 1300px){
+
+    #productos{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productos-bestseller{
+        width: 90%;
+        padding: 0px;
+    }
+
+    .food-info{
+        height: 46%;
+    }
+
+}
+
+
 @media screen and (max-width: 1080px){
     /* Slider de productos*/
 
@@ -998,7 +1017,7 @@ footer{
     /* Sección productos */
 
     #productos{
-        padding: 20px;
+        padding: 0px;
    }
    
    #productos h1{
@@ -1007,6 +1026,7 @@ footer{
 
    .productos-bestseller {
        padding: 0px; 
+       width: 100%;
    }
 
    
@@ -1027,7 +1047,7 @@ footer{
 }
 
 .container-food:hover{
-    flex-grow: 3;
+    flex-grow: 10;
 }
 
 .container-food:hover .food-info{
@@ -1037,6 +1057,7 @@ footer{
 .food-info{
     display: none;
     min-width: 300px;
+    height: 60%;
 }
 
 .food-info p{
